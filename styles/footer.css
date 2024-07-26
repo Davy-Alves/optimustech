@@ -1,0 +1,58 @@
+.rodape {
+    background-color: var(--cor-branco-alternativo);
+    padding: 6rem 0rem 6rem 0rem;
+    text-align: center;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--cor-azul-muito-escuro);
+}
+
+.rodape__subtitulo {
+    font-size: 1.25rem;
+    margin: 1.25rem 0px 2.5rem;
+}
+
+.rodape__call-action {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.rodape__call-action__email {
+    width: 22.5rem;
+    height: 3rem;
+    border: 1px solid var(--cor-azul-acizentado);
+    border-radius: 8px;
+    padding-left: 1rem;
+}
+
+.rodape__call-action__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-texto-secundario);
+}
+
+.rodape__call-action__botao {
+    width: 7.25rem;
+    height: 3rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--cor-vermelho-escuro);
+    color: var(--cor-branco);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.rodape__call-action__botao:hover {
+    background-color: var(--cor-vermelho-hover);
+}
+
+.rodape__texto {
+    margin-top: 2rem;
+    color: var(--cor-cinza-fosco);
+}
